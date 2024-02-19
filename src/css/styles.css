@@ -1,6 +1,6 @@
 
 @import url('./reset.css');
-/* @import url('./header.css'); */
+@import url('./header.css'); 
 
 
 :root {
@@ -27,7 +27,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     width: 1440px;
-    
+
 }
 
 #search-form {
@@ -38,7 +38,7 @@ body {
   margin-bottom: 30px;
 }
 
-#search-input {
+.search-input {
     width: 240px;
     height: 25px;
     padding: 8px 16px;
@@ -48,11 +48,11 @@ body {
     font-size: 16px;
 }
 
-#search-input:hover {
+.search-input:hover {
   border: 1px solid #000;
 }
 
-#search-input:focus {
+.search-input:focus {
   outline: none;
   border: 1px solid #4e75ff;
 }
